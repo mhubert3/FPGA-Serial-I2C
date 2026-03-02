@@ -1,7 +1,7 @@
 # FPGA I2C Master Communication Interface
 
 ## Description
-This project implements an I²C master controller on a Xilinx Artix-7 FPGA (Digilent Cmod A7-35T). It features precise finite state machine control to manage start/stop conditions, ACK/NACK handling, and dynamic open-drain SDA/SCL signaling. The system successfully interfaces with a PIC microcontroller to verify bidirectional serial data transfer protocols and timing compliance in hardware.
+This project implements an I²C master controller on a Xilinx Artix-7 FPGA (Digilent Cmod A7-35T). It features precise FSM control to manage start/stop conditions, ACK/NACK handling, and dynamic open-drain SDA/SCL signaling. The system interfaces with a PIC microcontroller to verify bidirectional serial data transfer protocols and timing compliance in hardware.
 
 ## Features
 * **Cycle-Accurate FSM:** Handles all standard I2C protocol phases (Start, Address, Read/Write, Data, Repeated Start, Stop) with dynamic timing counters.
